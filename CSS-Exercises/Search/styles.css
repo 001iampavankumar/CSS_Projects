@@ -1,0 +1,177 @@
+/* sign up form  */
+
+.fname-input,
+.lname-input {
+  margin-bottom: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  width: 80px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.email-input-sign-up {
+  margin-bottom: 5px;
+  display: block;
+  padding: 10px 20px;
+  width: 206px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.sign-up-button {
+  display: block;
+  padding: 10px 20px;
+  width: 247px;
+  background-color: rgb(29, 99, 228);
+  border-style: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: opacity 0.15s;
+}
+
+.sign-up-button:hover {
+  opacity: 0.9;
+}
+
+.sign-up-button:active {
+  opacity: 0.6;
+}
+
+/* google search with logo above  */
+
+.google-img {
+  display: block;
+  margin-left: 80px;
+}
+
+.google-img .google-search {
+  margin: 0;
+}
+
+/* feedback form with yes or no */
+
+.feedback-text {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.feedback-yes-button,
+.feedback-no-button {
+  display: inline-block;
+}
+
+/* name and email input boxes  */
+
+.name {
+  display: block;
+
+  margin: 10px 0;
+}
+.email {
+  display: block;
+}
+
+/* normal search input box  */
+
+.normal-search {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* google search input box */
+
+.google-search {
+  width: 300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  border-radius: 50px;
+  border-style: none;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/*  email input with terms and conditions agree button */
+
+.email-tag {
+  color: rgb(79, 77, 77);
+  font-family: arial;
+}
+
+.email-input {
+  border: 2px solid rgb(78, 76, 76);
+  border-width: 2px;
+  margin-top: 5px;
+  border-radius: 2px;
+  height: 25px;
+  width: 390px;
+}
+
+.terms {
+  color: rgb(79, 77, 77);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.agree-join-button {
+  color: white;
+  font-size: 1.1rem;
+  background-color: rgb(15, 81, 213);
+  text-align: center;
+  padding: 20px 150px;
+  border-style: none;
+  border-radius: 50px;
+  transition: opacity 0.15s;
+}
+
+.agree-join-button:hover {
+  opacity: 0.9;
+}
+
+.agree-join-button:active {
+  opacity: 0.6;
+}
+
+/* image with tweet text and tweet button */
+
+.tweet-img {
+  margin: 10px;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.tweet-box-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(86, 84, 84);
+  font-size: 1.1rem;
+}
+
+.tweet-button {
+  background-color: rgb(19, 116, 190);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border-style: none;
+  vertical-align: middle;
+  margin-left: 100px;
+  transition: opacity 0.15s;
+}
+
+.tweet-button:hover {
+  opacity: 0.9;
+}
+
+.tweet-button:active {
+  opacity: 0.6;
+}

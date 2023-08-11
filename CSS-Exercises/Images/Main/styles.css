@@ -1,0 +1,28 @@
+img {
+  width: 200px;
+
+  margin: 10px;
+}
+
+.round-corner {
+  border-radius: 10px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+
+  object-fit: cover;
+
+  align-items: top;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+
+  object-fit: cover;
+
+  align-items: top;
+  border-radius: 100%;
+}

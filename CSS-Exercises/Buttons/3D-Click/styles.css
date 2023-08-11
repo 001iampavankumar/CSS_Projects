@@ -1,0 +1,20 @@
+button {
+  background-color: green;
+  padding: 10px 16px;
+  color: white;
+  font-size: 1.1rem;
+  border-style: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.15s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  margin-top: 5px;
+  margin-left: 5px;
+  box-shadow: none;
+}
