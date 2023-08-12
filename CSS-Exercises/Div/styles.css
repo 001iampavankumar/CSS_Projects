@@ -1,0 +1,179 @@
+* {
+  font-family: arial;
+}
+
+/*<!-- creating a div with red background --> */
+
+.div-square-red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
+/* <!-- creating a div with green background --> */
+
+.div-circle-green {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+/* <!-- feedback with yes or no --> */
+
+.feedback-div {
+  border: 1px solid black;
+  padding: 10px 80px 10px 10px;
+  display: inline-block;
+}
+
+.feedback-text {
+  margin-top: 0px;
+}
+
+/* <!-- install youtube music div with grey background --> */
+
+.install-youtube-div {
+  background-color: rgb(30, 30, 30);
+  padding: 15px;
+  display: inline-block;
+  width: 385px;
+}
+
+.install-youtube-heading {
+  margin-top: 0;
+  color: white;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.install-youtube-para {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: grey;
+}
+
+/* <!-- tweeting text box with image inside a div --> */
+
+.tweet-text-box-div {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.tweet-text-box-img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.tweet-text-box-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(86, 84, 84);
+  font-size: 1.1rem;
+  display: inline;
+  color: grey;
+}
+
+.tweet-text-box-button {
+  background-color: rgb(19, 116, 190);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border-style: none;
+  vertical-align: middle;
+  margin-left: 100px;
+  transition: opacity 0.15s;
+}
+
+.tweet-text-box-button:hover {
+  opacity: 0.9;
+}
+
+.tweet-text-box-button:active {
+  opacity: 0.6;
+}
+
+/* <!--Profile box using div--> */
+
+.profile-card-div {
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-card-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.profile-card-name {
+  margin: 5px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.profile-card-stats {
+  color: rgb(59, 59, 59);
+  margin: 5px;
+}
+
+.profile-card-button {
+  background-color: rgb(41, 99, 245);
+  color: white;
+  padding: 10px 30px;
+  border-style: none;
+  border-radius: 4px;
+  margin: 7px 7px 7px 7px;
+  transition: opactity 0.15s;
+}
+
+.profile-card-button:hover {
+  opacity: 0.9;
+}
+
+.profile-card-button:active {
+  opacity: 0.6;
+}
+
+/* <!--google search with two buttons--> */
+
+div {
+  text-align: center;
+}
+.google-search-full-img {
+  width: 200px;
+  display: inline-block;
+}
+
+.google-search-full-input {
+  font-size: 1.1rem;
+  width: 400px;
+  padding: 15px;
+  border-radius: 50px;
+  border-style: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.google-search-full-button {
+  margin: 30px 10px 5px 5px;
+  border-style: none;
+  padding: 10px;
+  background-color: rgb(235, 235, 235);
+  transition: opacity 0.15s;
+}
+
+.google-search-full-button:hover {
+  opacity: 0.9;
+}
+
+.google-search-full-button:active {
+  opacity: 0.7;
+}
