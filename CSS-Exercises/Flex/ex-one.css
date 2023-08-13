@@ -1,0 +1,14 @@
+.div-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.div-200px {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.div-75px {
+  background-color: lightpink;
+  width: 75px;
+}

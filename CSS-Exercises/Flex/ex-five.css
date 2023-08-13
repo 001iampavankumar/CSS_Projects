@@ -1,0 +1,33 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-box {
+  background-color: rgb(143, 90, 190);
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.home {
+  color: white;
+  font-weight: bold;
+}
+
+.search {
+  padding: 7px 17px;
+  border-radius: 15px;
+  border-style: none;
+}
+
+.download {
+  border: 1px solid white;
+  background-color: rgb(143, 90, 190);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
