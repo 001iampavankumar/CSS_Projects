@@ -1,0 +1,16 @@
+.div-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.div-50px {
+  background-color: lightskyblue;
+}
+
+.div-1fr {
+  background-color: lightpink;
+}
+
+.div-75px {
+  background-color: lightskyblue;
+}

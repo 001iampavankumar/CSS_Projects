@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+
+.outer-div {
+  display: inline-block;
+}
+.main-div {
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+}
+
+.image-div {
+  width: 100%;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.content-div {
+  width: 100%;
+}
+
+.content-div-name {
+  margin: 10px;
+}
+
+.name {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.content-div-profile {
+  width: 100%;
+}
+
+.content-div-profile-img {
+  margin-top: 0;
+  margin-left: 10px;
+  display: inline-block;
+  width: 60px;
+  vertical-align: middle;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.content-div-profile-stats {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.stats {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(103, 100, 100);
+  font-size: 1.5rem;
+}
+
+.content-div-button {
+  width: 100%;
+}
+
+.button {
+  background-color: rgb(29, 110, 249);
+  color: white;
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-size: 25px;
+  border-style: none;
+  margin: 10px;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:active {
+  opacity: 0.6;
+}
