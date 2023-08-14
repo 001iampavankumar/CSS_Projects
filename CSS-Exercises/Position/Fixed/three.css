@@ -1,0 +1,82 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header-div {
+  padding: 5px 70px 5px 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 40px;
+}
+
+.left-section {
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+  width: 140px;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.right-section {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.addfriend {
+  background-color: rgb(26, 102, 223);
+  color: white;
+  padding: 10px 13px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+
+.addfriend:hover {
+  opacity: 0.9;
+}
+
+.addfriend:active {
+  opacity: 0.6;
+}
+
+.message {
+  background-color: rgb(228, 227, 227);
+  color: black;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.message:hover {
+  opacity: 0.9;
+}
+
+.message:active {
+  opacity: 0.6;
+}

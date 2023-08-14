@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 2000px;
+}
+
+.green {
+  background-color: green;
+  width: 1000px;
+  height: 400px;
+}
+
+.blue {
+  background-color: blue;
+  width: 1000px;
+  height: 400px;
+}
+
+.red {
+  background-color: red;
+  width: 1000px;
+  height: 400px;
+}
+
+.profile-container {
+  background-color: rgb(32, 32, 32);
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  align-items: center;
+  padding: 20px 10px;
+  position: fixed;
+
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.profile-image-container img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+/* add hashtag header*/
+
+.hashtag-container {
+  padding: 10px 10px;
+  background-color: rgb(71, 70, 70);
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 200px;
+  position: fixed;
+  top: 0px;
+  left: 90px;
+  bottom: 0px;
+}
+
+.hashtag-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  color: white;
+  font-weight: bold;
+}
+
+.add-hashtag {
+  color: rgb(169, 167, 167);
+  font-size: 2rem;
+}
+
+.hashtag-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hashtag-list-container div {
+  color: rgb(169, 167, 167);
+  margin-bottom: 10px;
+}
