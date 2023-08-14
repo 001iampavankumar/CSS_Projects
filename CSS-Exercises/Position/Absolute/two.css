@@ -1,0 +1,70 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-of-hoodies {
+  width: 1430px;
+  margin: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image-container {
+  margin: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding: 10px 30px 20px 10px;
+
+  position: relative;
+}
+
+img {
+  border: 2px solid rgb(128, 128, 128, 0.2);
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.add-to-cart {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  right: 30px;
+  height: 150px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#button {
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  transition: opacity 0.15s;
+  font-weight: 550;
+}
+
+#button:hover {
+  opacity: 0.9;
+}
+
+#button:active {
+  opacity: 0.6;
+}
+
+.offer {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  position: absolute;
+
+  top: 25px;
+  right: 29px;
+}
